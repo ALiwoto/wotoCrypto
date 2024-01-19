@@ -8,7 +8,7 @@ package wotoCrypto
 import (
 	"fmt"
 
-	ws "github.com/AnimeKaizoku/ssg/ssg"
+	ws "github.com/ALiwoto/ssg/ssg"
 	"github.com/TheGolangHub/wotoCrypto/wotoCrypto/passContainer"
 )
 
