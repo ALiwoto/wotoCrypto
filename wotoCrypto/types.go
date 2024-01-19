@@ -9,7 +9,7 @@ import (
 	"fmt"
 
 	ws "github.com/ALiwoto/ssg/ssg"
-	"github.com/TheGolangHub/wotoCrypto/wotoCrypto/passContainer"
+	"github.com/ALiwoto/wotoCrypto/wotoCrypto/passContainer"
 )
 
 type WotoAlgorithm uint16

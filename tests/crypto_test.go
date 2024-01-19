@@ -26,7 +26,7 @@ import (
 	"sync"
 	"testing"
 
-	wcr "github.com/TheGolangHub/wotoCrypto/wotoCrypto"
+	wcr "github.com/ALiwoto/wotoCrypto/wotoCrypto"
 	"golang.org/x/crypto/sha3"
 )
 
@@ -304,7 +304,7 @@ func TestPresentKeyCrypto01(t *testing.T) {
 		}),
 		string(commonIV),
 		"remote: Resolving deltas: 100% (10/10), completed with 8 local objects.",
-		"To https://github.com/TheGolangHub/wotoCrypto.git",
+		"To https://github.com/ALiwoto/wotoCrypto.git",
 	}
 	presentKey := wcr.GeneratePresentKey(wcr.WotoAlgorithmM250)
 	_ = presentKey.AppendLayer(&allCryptoLayers[0x0])
